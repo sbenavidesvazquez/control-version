@@ -23,7 +23,7 @@ public class PracVersiones {
         else if(num==2){
             System.out.println("version "+ num);
         }else{
-            System.out.println("Version no encontrada");
+            System.out.println("Version "+num+" no encontrada");
         }
     }
     
