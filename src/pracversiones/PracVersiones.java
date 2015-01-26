@@ -20,8 +20,10 @@ public class PracVersiones {
         if(num==1){
             System.out.println("version "+ num);
         }
-        else{
-            System.out.println("no existe esa version");
+        else if(num==2){
+            System.out.println("version "+ num);
+        }else{
+            System.out.println("Version no encontrada");
         }
     }
     
